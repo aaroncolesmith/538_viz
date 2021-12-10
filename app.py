@@ -116,7 +116,10 @@ def app():
                             opacity=.75,
                             marker=dict(size=8,line=dict(width=1,color='DarkSlateGrey')),
                             line = dict(width=4))
-        fig.update_yaxes(tickformat = ',.0%',title=val.replace('_',' ').title())
+        if col_select in ['ELO','SPI']:
+            fig.update_yaxes(title=val.replace('_',' ').title())
+        else:
+            fig.update_yaxes(tickformat = ',.0%',title=val.replace('_',' ').title())
         fig.update_xaxes(title='Date')
         st.plotly_chart(fig)
 
@@ -129,7 +132,10 @@ def app():
             color='team',
             color_discrete_map=color_map,
             )
-        fig.update_yaxes(tickformat = ',.0%',title=val.replace('_',' ').title())
+        if col_select in ['ELO','SPI']:
+            fig.update_yaxes(title=val.replace('_',' ').title())
+        else:
+            fig.update_yaxes(tickformat = ',.0%',title=val.replace('_',' ').title())
         fig.update_xaxes(title='Team')
 
         del d[val+'_pct_change_initial']
