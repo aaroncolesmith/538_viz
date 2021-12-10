@@ -71,6 +71,7 @@ def app():
     title_columns = [x.replace('_',' ') for x in title_columns]
     title_columns = [x.replace('Ucl','UCL') for x in title_columns]
     title_columns = [x.replace('Elo','ELO') for x in title_columns]
+    title_columns = [x.replace('Spi','SPI') for x in title_columns]
 
     col_dict = dict(zip(title_columns, num_columns))
     a=np.insert(list(col_dict.keys()),0,'')
@@ -94,7 +95,10 @@ def app():
                             marker=dict(size=8,line=dict(width=1,color='DarkSlateGrey')),
                             line = dict(width=4))
 
-        fig.update_yaxes(tickformat = ',.0%',title=val.replace('_',' ').title())
+        if col_select in ['ELO','SPI']:
+            fig.update_yaxes(title=val.replace('_',' ').title())
+        else:
+            fig.update_yaxes(tickformat = ',.0%',title=val.replace('_',' ').title())
         fig.update_xaxes(title='Date')
         st.plotly_chart(fig)
 
