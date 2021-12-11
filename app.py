@@ -3,8 +3,6 @@ import plotly_express as px
 import pandas as pd
 import numpy as np
 
-
-
 data_sources = {
     "Champions League": './538_champions_league.csv',
     "NBA": './538_nba.csv',
@@ -12,24 +10,16 @@ data_sources = {
     "Premier League": './538_premier_league.csv'
     }
 
-
 df_color=pd.read_csv('https://raw.githubusercontent.com/aaroncolesmith/bovada/master/color_map.csv')
 trans_df = df_color[['team','primary_color']].set_index('team').T
 color_map=trans_df.to_dict('index')['primary_color']
 del df_color
 del trans_df
 
-
 non_pct = ['ELO','SPI','Proj Point Diff']
 
-
 def app():
-
-
-
     st.title('538 Viz')
-
-
 
     sel = st.radio("Select sport/competition:", list(data_sources.keys()))
 
@@ -73,7 +63,7 @@ def app():
         else:
             fig.update_yaxes(tickformat = ',.0%',title=val.replace('_',' ').title())
         fig.update_xaxes(title='Date')
-        st.plotly_chart(fig)
+        st.plotly_chart(fig, use_container_width=True)
 
 
         d[val+'_pct_change_initial']=d.groupby('team')[val].transform(lambda x: (x-x.iloc[0]))
@@ -94,7 +84,7 @@ def app():
         else:
             fig.update_yaxes(tickformat = ',.0%',title=val.replace('_',' ').title())
         fig.update_xaxes(title='Date')
-        st.plotly_chart(fig)
+        st.plotly_chart(fig, use_container_width=True)
 
 
         fig=px.bar(
@@ -112,14 +102,7 @@ def app():
         fig.update_xaxes(title='Team')
 
         del d[val+'_pct_change_initial']
-        st.plotly_chart(fig)
-
-
-
-
-
-
-
+        st.plotly_chart(fig, use_container_width=True)
 
 if __name__ == "__main__":
     #execute
