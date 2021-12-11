@@ -16,10 +16,11 @@ data_sources = {
 df_color=pd.read_csv('https://raw.githubusercontent.com/aaroncolesmith/bovada/master/color_map.csv')
 trans_df = df_color[['team','primary_color']].set_index('team').T
 color_map=trans_df.to_dict('index')['primary_color']
-
-# word_freq.update({'before': 23})
 del df_color
 del trans_df
+
+
+non_pct = ['ELO','SPI','Proj Point Diff']
 
 
 def app():
@@ -27,34 +28,6 @@ def app():
 
 
     st.title('538 Viz')
-
-    # with st.form("input_form"):
-    #     # st.write("Select a Sport / Competition")
-    #     sel = st.radio("Select sport/competition:", list(data_sources.keys()))
-    #     submit_button = st.form_submit_button(label='Submit')
-    #
-    # if submit_button:
-    #     data = data_sources[sel]
-    #     st.write(data)
-    #     df=pd.read_csv(data)
-    #     st.write(df.head(5))
-    #
-    #     columns=df.columns
-    #     numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
-    #     num_columns = df.select_dtypes(include=numerics).columns.tolist()
-    #
-    #     title_columns = [x.title() for x in num_columns]
-    #     title_columns = [x.replace('_',' ') for x in title_columns]
-    #
-    #     col_dict = dict(zip(title_columns, num_columns))
-    #     a=np.insert(list(col_dict.keys()),0,'')
-    #
-    #     col_select=st.selectbox('Select a metric -', a)
-    #
-    #     if len(col_select) > 0:
-    #         st.write(col_select)
-    #         st.write(col_dict[col_select])
-
 
 
 
@@ -95,7 +68,7 @@ def app():
                             marker=dict(size=8,line=dict(width=1,color='DarkSlateGrey')),
                             line = dict(width=4))
 
-        if col_select in ['ELO','SPI']:
+        if col_select in non_pct:
             fig.update_yaxes(title=val.replace('_',' ').title())
         else:
             fig.update_yaxes(tickformat = ',.0%',title=val.replace('_',' ').title())
@@ -116,7 +89,7 @@ def app():
                             opacity=.75,
                             marker=dict(size=8,line=dict(width=1,color='DarkSlateGrey')),
                             line = dict(width=4))
-        if col_select in ['ELO','SPI']:
+        if col_select in non_pct:
             fig.update_yaxes(title=val.replace('_',' ').title())
         else:
             fig.update_yaxes(tickformat = ',.0%',title=val.replace('_',' ').title())
@@ -132,7 +105,7 @@ def app():
             color='team',
             color_discrete_map=color_map,
             )
-        if col_select in ['ELO','SPI']:
+        if col_select in non_pct:
             fig.update_yaxes(title=val.replace('_',' ').title())
         else:
             fig.update_yaxes(tickformat = ',.0%',title=val.replace('_',' ').title())
