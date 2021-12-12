@@ -3,6 +3,11 @@ import plotly_express as px
 import pandas as pd
 import numpy as np
 
+st.set_page_config(
+    page_title='538 Viz',
+    page_icon='⚽'
+    )
+
 data_sources = {
     "Champions League": './538_champions_league.csv',
     "NBA": './538_nba.csv',
@@ -16,7 +21,7 @@ color_map=trans_df.to_dict('index')['primary_color']
 del df_color
 del trans_df
 
-non_pct = ['ELO','SPI','Proj Point Diff']
+non_pct = ['ELO','SPI','Proj Point Diff','Proj Goal Diff','Proj Points']
 
 def app():
     st.title('538 Viz')
