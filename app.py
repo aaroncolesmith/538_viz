@@ -21,7 +21,7 @@ color_map=trans_df.to_dict('index')['primary_color']
 del df_color
 del trans_df
 
-non_pct = ['ELO','SPI','Proj Point Diff','Proj Goal Diff','Proj Points']
+non_pct = ['ELO','SPI','Proj Point Diff','Proj Goal Diff','Proj Points','Points']
 
 def app():
     st.title('538 Viz')
