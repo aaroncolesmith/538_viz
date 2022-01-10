@@ -30,6 +30,7 @@ def app():
 
     data = data_sources[sel]
     d=pd.read_csv(data)
+    d=d.sort_values(['updated','team'], ascending=(True, True))
 
     columns=d.columns
     numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
