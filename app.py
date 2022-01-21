@@ -8,20 +8,20 @@ st.set_page_config(
     page_icon='⚽'
     )
 
-try:
-    df_files = pd.read_csv('./last_updated.csv')
-    df_files['hours_since'] = (datetime.datetime.utcnow()-pd.to_datetime(df_files.updated))/np.timedelta64(1, 'h')
-    df_files['title'] = df_files['data_sources'] + ' - updated '+ round(df_files['hours_since'],2).astype('str') + ' hours ago'
-    data_sources=dict(zip(df_files.title, df_files.file_names))
-    del df_files
+# try:
+df_files = pd.read_csv('./last_updated.csv')
+df_files['hours_since'] = (datetime.datetime.utcnow()-pd.to_datetime(df_files.updated))/np.timedelta64(1, 'h')
+df_files['title'] = df_files['data_sources'] + ' - updated '+ round(df_files['hours_since'],2).astype('str') + ' hours ago'
+data_sources=dict(zip(df_files.title, df_files.file_names))
+del df_files
 
-except:
-    data_sources = {
-        "Champions League": './538_champions_league.csv',
-        "NBA": './538_nba.csv',
-        "NFL": './538_nfl.csv',
-        "Premier League": './538_premier_league.csv'
-        }
+# except:
+#     data_sources = {
+#         "Champions League": './538_champions_league.csv',
+#         "NBA": './538_nba.csv',
+#         "NFL": './538_nfl.csv',
+#         "Premier League": './538_premier_league.csv'
+#         }
 
 
 df_color=pd.read_csv('https://raw.githubusercontent.com/aaroncolesmith/bovada/master/color_map.csv')
