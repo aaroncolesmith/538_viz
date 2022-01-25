@@ -10,11 +10,7 @@ st.set_page_config(
     )
 
 # try:
-df_files = pd.read_csv('./last_updated.csv')
-df_files['hours_since'] = (datetime.datetime.utcnow()-pd.to_datetime(df_files.updated))/np.timedelta64(1, 'h')
-df_files['title'] = df_files['data_sources'] + ' - updated '+ round(df_files['hours_since'],2).astype('str') + ' hours ago'
-data_sources=dict(zip(df_files.title, df_files.file_names))
-del df_files
+
 
 # except:
 #     data_sources = {
@@ -35,6 +31,12 @@ non_pct = ['ELO','SPI','Proj Point Diff','Proj Goal Diff','Proj Points','Points'
 
 def app():
     st.title('538 Viz')
+
+    df_files = pd.read_csv('./last_updated.csv')
+    df_files['hours_since'] = (datetime.datetime.utcnow()-pd.to_datetime(df_files.updated))/np.timedelta64(1, 'h')
+    df_files['title'] = df_files['data_sources'] + ' - updated '+ round(df_files['hours_since'],2).astype('str') + ' hours ago'
+    data_sources=dict(zip(df_files.title, df_files.file_names))
+    del df_files
 
     sel = st.radio("Select sport/competition:", list(data_sources.keys()))
 
