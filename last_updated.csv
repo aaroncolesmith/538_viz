@@ -1,6 +1,6 @@
 data_sources,file_names,dataframes,updated,hours_since,title
-Champions League,./538_champions_league.csv,df_cl,2022-03-23 16:55:00,77.26088739833334,Champions League - updated 77.26 hours ago
-NBA,./538_nba.csv,df_nba,2022-03-26 12:33:00,9.627554065,NBA - updated 9.63 hours ago
-NFL,./538_nfl.csv,df_nfl,2022-02-13 22:03:00,984.127554065,NFL - updated 984.13 hours ago
-Premier League,./538_premier_league.csv,df_epl,2022-03-23 16:55:00,77.26088739833334,Premier League - updated 77.26 hours ago
-MLS,./538_mls.csv,df_mls,2022-03-26 17:59:00,4.194220731666666,MLS - updated 4.19 hours ago
+Champions League,./538_champions_league.csv,df_cl,2022-03-23 16:55:00,78.26486718638888,Champions League - updated 78.26 hours ago
+NBA,./538_nba.csv,df_nba,2022-03-26 12:33:00,10.631533853055556,NBA - updated 10.63 hours ago
+NFL,./538_nfl.csv,df_nfl,2022-02-13 22:03:00,985.1315338530555,NFL - updated 985.13 hours ago
+Premier League,./538_premier_league.csv,df_epl,2022-03-23 16:55:00,78.26486718638888,Premier League - updated 78.26 hours ago
+MLS,./538_mls.csv,df_mls,2022-03-26 19:04:00,4.114867186388889,MLS - updated 4.11 hours ago
