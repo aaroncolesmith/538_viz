@@ -2906,8 +2906,40 @@ Celtic,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/256.png&am
 Dinamo Zagreb,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/597.png&amp;w=56,63.7,1.8,1.0,0.03565,0.0953,0.19625,0.13095,0.02835,0.0058,0.0017,0.0003,2022-10-08 10:55:00
 Juventus,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/111.png&amp;w=56,67.6,1.9,0.9,0.00765,0.0708,0.8611,0.07845,0.02025,0.00555,0.00115,0.0002,2022-10-08 10:55:00
 Shakhtar Donetsk,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/493.png&amp;w=56,60.0,1.9,1.2,0.0145,0.32535,0.36685,0.33985,0.05465,0.00855,0.0013,0.00015,2022-10-08 10:55:00
-Rangers,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/257.png&amp;w=56,68.4,2.0,1.0,0.00001,0.003,0.0811,0.003,0.00085,0.0004,0.00015,0.0001,2022-10-08 10:55:00
-Sevilla FC,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/243.png&amp;w=56,66.0,1.7,0.9,0.0001,0.0168,0.69975,0.0169,0.00485,0.0013,0.00035,0.00001,2022-10-08 10:55:00
-FC Copenhagen,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/909.png&amp;w=56,52.7,1.6,1.3,0.00001,0.0052,0.2789,0.0052,0.0008,0.0001,0.00001,0.00001,2022-10-08 10:55:00
-Viktoria Plzen,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/11706.png&amp;w=56,53.7,1.7,1.3,0.00001,0.00095,0.0111,0.00095,0.00015,0.00001,0.00001,0.00001,2022-10-08 10:55:00
-Maccabi Haifa,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/611.png&amp;w=56,47.4,1.6,1.5,0.00005,0.0003,0.0603,0.00035,0.00005,0.00001,0.00001,0.00001,2022-10-08 10:55:00
+Rangers,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/257.png&amp;w=56,68.4,2.0,1.0,1e-05,0.003,0.0811,0.003,0.00085,0.0004,0.00015,0.0001,2022-10-08 10:55:00
+Sevilla FC,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/243.png&amp;w=56,66.0,1.7,0.9,0.0001,0.0168,0.69975,0.0169,0.00485,0.0013,0.00035,1e-05,2022-10-08 10:55:00
+FC Copenhagen,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/909.png&amp;w=56,52.7,1.6,1.3,1e-05,0.0052,0.2789,0.0052,0.0008,0.0001,1e-05,1e-05,2022-10-08 10:55:00
+Viktoria Plzen,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/11706.png&amp;w=56,53.7,1.7,1.3,1e-05,0.00095,0.0111,0.00095,0.00015,1e-05,1e-05,1e-05,2022-10-08 10:55:00
+Maccabi Haifa,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/611.png&amp;w=56,47.4,1.6,1.5,5e-05,0.0003,0.0603,0.00035,5e-05,1e-05,1e-05,1e-05,2022-10-08 10:55:00
+Manchester City,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png&amp;w=56,93.4,3.1,0.3,0.9199,0.0801,0.00001,0.99999,0.8096,0.5902,0.40565,0.24935,2022-10-08 11:57:00
+Bayern Munich,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/132.png&amp;w=56,92.6,3.4,0.5,0.9414,0.0516,0.007,0.993,0.7694,0.5365,0.3507,0.20725,2022-10-08 11:57:00
+Paris Saint-Germain,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/160.png&amp;w=56,89.6,3.0,0.5,0.76315,0.2259,0.01095,0.98905,0.66885,0.4095,0.23175,0.1187,2022-10-08 11:57:00
+Liverpool,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/364.png&amp;w=56,88.5,2.8,0.5,0.2404,0.5994,0.15585,0.8398,0.5207,0.3038,0.16255,0.08125,2022-10-08 11:57:00
+Real Madrid,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/86.png&amp;w=56,87.4,2.8,0.6,0.96265,0.03415,0.0032,0.9968,0.6333,0.34535,0.1715,0.08055,2022-10-08 11:57:00
+Barcelona,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/83.png&amp;w=56,88.2,2.6,0.4,0.0209,0.4425,0.52705,0.4634,0.2838,0.1653,0.08755,0.0433,2022-10-08 11:57:00
+Napoli,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/114.png&amp;w=56,81.8,2.5,0.7,0.7371,0.24235,0.02055,0.97945,0.51035,0.21815,0.08425,0.0329,2022-10-08 11:57:00
+Chelsea,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&amp;w=56,82.8,2.3,0.5,0.3487,0.30325,0.2523,0.65195,0.34875,0.15585,0.0643,0.0265,2022-10-08 11:57:00
+Borussia Dortmund,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/124.png&amp;w=56,80.2,2.5,0.7,0.08005,0.89645,0.02285,0.9765,0.43805,0.1725,0.06115,0.022,2022-10-08 11:57:00
+Tottenham Hotspur,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/367.png&amp;w=56,81.0,2.3,0.6,0.3496,0.34935,0.20615,0.69895,0.34,0.1433,0.05435,0.0211,2022-10-08 11:57:00
+Benfica,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/1929.png&amp;w=56,78.7,2.2,0.6,0.2306,0.69915,0.07025,0.92975,0.3547,0.1319,0.04635,0.0179,2022-10-08 11:57:00
+FC Salzburg,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/2790.png&amp;w=56,79.1,2.3,0.7,0.33975,0.30315,0.2542,0.6429,0.2811,0.11315,0.04245,0.01535,2022-10-08 11:57:00
+AC Milan,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/103.png&amp;w=56,78.9,2.2,0.7,0.2792,0.29805,0.29695,0.57725,0.24855,0.09945,0.0355,0.01265,2022-10-08 11:57:00
+RB Leipzig,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/11420.png&amp;w=56,78.8,2.3,0.7,0.0188,0.4817,0.32185,0.5005,0.2141,0.0867,0.0309,0.01175,2022-10-08 11:57:00
+Atletico Madrid,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/1068.png&amp;w=56,79.8,2.1,0.5,0.09905,0.32375,0.31735,0.4228,0.17735,0.0749,0.02795,0.0109,2022-10-08 11:57:00
+Internazionale,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/110.png&amp;w=56,79.0,2.4,0.7,0.0377,0.5052,0.45495,0.5429,0.2203,0.08545,0.0316,0.0108,2022-10-08 11:57:00
+Ajax,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/139.png&amp;w=56,83.3,2.9,0.9,0.0225,0.15525,0.73965,0.17775,0.08905,0.04445,0.02045,0.0093,2022-10-08 11:57:00
+FC Porto,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/437.png&amp;w=56,79.3,2.3,0.7,0.06595,0.2503,0.34405,0.31625,0.1211,0.052,0.02065,0.00755,2022-10-08 11:57:00
+Sporting CP,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/2250.png&amp;w=56,74.1,2.1,0.8,0.4646,0.2891,0.1627,0.7537,0.2532,0.07755,0.02245,0.00635,2022-10-08 11:57:00
+Club Brugge,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/570.png&amp;w=56,70.5,2.2,1.0,0.7585,0.1974,0.04315,0.9559,0.28945,0.06905,0.0155,0.00465,2022-10-08 11:57:00
+Bayer Leverkusen,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/131.png&amp;w=56,74.7,2.2,0.8,0.0765,0.22855,0.29545,0.30505,0.10515,0.03695,0.01095,0.0038,2022-10-08 11:57:00
+Marseille,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/176.png&amp;w=56,74.0,1.9,0.7,0.09815,0.1632,0.26225,0.26135,0.09285,0.0306,0.00935,0.00295,2022-10-08 11:57:00
+Eintracht Frankfurt,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/125.png&amp;w=56,69.0,1.9,0.9,0.08765,0.19835,0.3689,0.286,0.0796,0.02115,0.00495,0.00125,2022-10-08 11:57:00
+Celtic,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/256.png&amp;w=56,71.3,2.2,1.0,0.0029,0.16275,0.31155,0.16565,0.04535,0.0143,0.0035,0.0012,2022-10-08 11:57:00
+Juventus,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/111.png&amp;w=56,67.6,1.9,0.9,0.00625,0.07475,0.8592,0.081,0.02105,0.0055,0.0013,0.00035,2022-10-08 11:57:00
+Dinamo Zagreb,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/597.png&amp;w=56,63.7,1.8,1.0,0.03235,0.09555,0.19655,0.1279,0.0289,0.00615,0.00095,0.0002,2022-10-08 11:57:00
+Shakhtar Donetsk,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/493.png&amp;w=56,60.0,1.9,1.2,0.01565,0.3214,0.3634,0.33705,0.0496,0.009,0.0012,0.0001,2022-10-08 11:57:00
+Sevilla FC,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/243.png&amp;w=56,66.0,1.7,0.9,0.00005,0.01695,0.70395,0.017,0.00415,0.0009,0.0002,0.00005,2022-10-08 11:57:00
+Rangers,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/257.png&amp;w=56,69.8,2.1,1.0,0.00001,0.003,0.08395,0.003,0.0007,0.00025,0.00005,0.00001,2022-10-08 11:57:00
+FC Copenhagen,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/909.png&amp;w=56,52.7,1.6,1.3,0.00001,0.0065,0.2732,0.0065,0.0009,0.00015,0.00001,0.00001,2022-10-08 11:57:00
+Viktoria Plzen,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/11706.png&amp;w=56,53.7,1.7,1.3,0.00001,0.0007,0.011,0.0007,0.00005,0.00001,0.00001,0.00001,2022-10-08 11:57:00
+Maccabi Haifa,https://secure.espn.com/combiner/i?img=/i/teamlogos/soccer/500/611.png&amp;w=56,47.4,1.6,1.5,0.00001,0.0002,0.0596,0.0002,0.00001,0.00001,0.00001,0.00001,2022-10-08 11:57:00
