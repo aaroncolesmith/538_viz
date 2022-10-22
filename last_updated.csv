@@ -1,10 +1,10 @@
 data_sources,file_names,dataframes,updated,hours_since,title
-Champions League,./538_champions_league.csv,df_cl,2022-10-22 09:32:00,4.642869073888889,Champions League - updated 4.64 hours ago
-Champions League 22/23,./538_champions_league_22.csv,df_cl_22,2022-10-22 09:32:00,4.642869073888889,Champions League 22/23 - updated 4.64 hours ago
-Premier League,./538_premier_league.csv,df_epl,2022-10-22 09:26:00,4.742869073888889,Premier League - updated 4.74 hours ago
-Premier League 22/23,./epl_22_23.csv,df_epl_22_23,2022-10-22 09:26:00,4.742869073888889,Premier League 22/23 - updated 4.74 hours ago
-MLS,./538_mls.csv,df_mls,2022-10-21 00:27:00,37.726202407222225,MLS - updated 37.73 hours ago
-NBA,./538_nba.csv,df_nba,2022-06-17 07:28:00,3054.7095357405556,NBA - updated 3054.71 hours ago
-Champions League 21/22,./538_champions_league_21.csv,df_cl_21,2022-05-28 17:36:00,3524.5762024072224,Champions League 21/22 - updated 3524.58 hours ago
-Premier League 21/22,./epl_21_22.csv,df_epl_21_22,2022-05-22 13:00:00,3673.1762024072223,Premier League 21/22 - updated 3673.18 hours ago
-NFL,./538_nfl.csv,df_nfl,2022-02-13 22:03:00,6016.126202407222,NFL - updated 6016.13 hours ago
+Premier League,./538_premier_league.csv,df_epl,2022-10-22 10:57:00,4.228347839444444,Premier League - updated 4.23 hours ago
+Premier League 22/23,./epl_22_23.csv,df_epl_22_23,2022-10-22 10:57:00,4.228347839444444,Premier League 22/23 - updated 4.23 hours ago
+Champions League,./538_champions_league.csv,df_cl,2022-10-22 09:32:00,5.645014506111111,Champions League - updated 5.65 hours ago
+Champions League 22/23,./538_champions_league_22.csv,df_cl_22,2022-10-22 09:32:00,5.645014506111111,Champions League 22/23 - updated 5.65 hours ago
+MLS,./538_mls.csv,df_mls,2022-10-21 00:27:00,38.728347839444446,MLS - updated 38.73 hours ago
+NBA,./538_nba.csv,df_nba,2022-06-17 07:28:00,3055.711681172778,NBA - updated 3055.71 hours ago
+Champions League 21/22,./538_champions_league_21.csv,df_cl_21,2022-05-28 17:36:00,3525.5783478394446,Champions League 21/22 - updated 3525.58 hours ago
+Premier League 21/22,./epl_21_22.csv,df_epl_21_22,2022-05-22 13:00:00,3674.1783478394445,Premier League 21/22 - updated 3674.18 hours ago
+NFL,./538_nfl.csv,df_nfl,2022-02-13 22:03:00,6017.128347839444,NFL - updated 6017.13 hours ago
